@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(**** twin towers distribution function *****)
+(* twin towers distribution function *)
 TDD=MixtureDistribution[{1,1},
 	{UniformDistribution@{-#,#},UniformDistribution@{\[Pi]-#,\[Pi]+#}}]&;
 
